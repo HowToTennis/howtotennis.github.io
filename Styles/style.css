@@ -1,0 +1,240 @@
+* {
+    padding:0;
+    Margin:0;
+}
+body {
+    margin:0 auto;
+    padding-top:0;
+    background-color:lightskyblue;
+}
+
+/*Home Page*/
+.MainHeading {
+    font-family: helvetica;
+    color:red;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 100px;
+    text-align: center;
+}
+.Courts {
+    Width: 650px;
+    padding: 10px 50px;
+}
+
+.Icons {
+    width: 760px;
+    height: 350px;
+    padding-top: 5px;
+}
+
+.Discription {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 50%;
+    text-align: left;
+}
+
+/*Explination Page*/
+.ExplanationTitle {
+    font-family: helvetica;
+    color:forestgreen;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.TitleForeBackHand {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+    color:blueviolet;
+    padding-top: 20px;
+}
+
+.ForehandBackhand {
+    padding: 0px 20px;
+    text-align: left;
+    font-size: 14;
+    margin-left: 20%;
+}
+
+.TitleVolley {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+    color:blueviolet;
+    padding-top: 18px;
+}
+
+.VolleysExplain {
+    padding: 0px 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 14;
+    margin-left: 20%;
+}
+
+.TitleOverhead {
+    clear:both;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+    color:blueviolet;
+    padding-top: 40px;
+}
+
+.OverheadExplain {
+    padding: 0px 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 14;
+    margin-left: 20%;
+}
+
+.TitleApproach {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+    color:blueviolet;
+    padding-top: 30px;
+}
+
+.ApproachExplain {
+    padding: 0px 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 14;
+    margin-left: 20%;
+}
+
+.TitleServe {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+    color:blueviolet;
+    padding-top: 100px;
+}
+
+.ServeExplain {
+    padding: 0px 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 14;
+    margin-left: 20%;
+}
+
+/*Shots Page*/
+.GroundStrokes {
+    font-family: helvetica;
+    color:blue;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.GroundDiscs {
+    Padding: 0px 20px;
+    text-align: center;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+.VolleysOverhead {
+    font-family: helvetica;
+    color:blue;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.VolleysOverheadDisc {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+.ApproachShot {
+    font-family: helvetica;
+    color:blue;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ApproachDisc {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+.Serve {
+    font-family: helvetica;
+    color:blue;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ServeDisc {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+/*Nav Bar*/
+nav li{
+    list-style: none;
+    margin:0 auto;
+}
+
+nav ul {
+display:flex;
+justify-content: space-around;
+background-color: darkorange;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color:inherit;
+}
+
+.unactive {
+    color: blue;
+}
+
+li:hover {
+    transition-duration: 0.3s;
+    transform:scale(2);
+}
+
+li:not(:hover) {
+    transition-duration: 0.3s;
+    transform:scale(1);
+}
+
+.active {
+    color: ivory
+}
+/*Serve Page*/
+video {
+    padding: 15px;
+}
+
+/*
+@media(max-width:1000px){
+    body{
+        width:80%;
+    }
+}
+*/
